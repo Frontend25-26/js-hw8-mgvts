@@ -32,3 +32,10 @@ function addPiece(cell, color, row, col) {
 }
 
 createBoard();
+
+
+
+const gif =  document.querySelector('#gif')
+document.querySelector('#expl').addEventListener('click', (e) => {
+    gif.style.display = gif.style.display == 'none' ? 'block' : 'none'
+})
